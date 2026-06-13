@@ -1,0 +1,38 @@
+// Fibbinoci Formula
+// fib(n) = fib(n - 1) + fib(n - 2)
+
+// Base Case
+// fib(0) = 0
+// fib(1) = 1
+
+// fib(2) = fib(1) + fib(0) = 1 + 0 = 1
+// fib(3) = fib(2) + fib(1) = 1 + 1 = 2
+// fib(4) = fib(3) + fib(2) = 2 + 1 = 3
+// fib(5) = fib(4) + fib(3) = 3 + 2 = 5
+
+// First 10 Fibonacci Numbers:
+// 0 1 1 2 3 5 8 13 21 34
+
+// Time Complexity O(2ⁿ)
+
+// Space Complexity O(n)
+
+// fib(5)
+
+// fib(5)
+// = fib(4) + fib(3)
+// fib(4)
+// = fib(3) + fib(2)
+
+// Recursion Tree
+// fib(5)
+// ├── fib(4)
+// │   ├── fib(3)
+// │   │   ├── fib(2)
+// │   │   └── fib(1)
+// │   └── fib(2)
+// └── fib(3)
+//     ├── fib(2)
+//     └── fib(1)
+
+
